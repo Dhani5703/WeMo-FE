@@ -19,15 +19,15 @@
 
 ---
 
-## 🛠 기술 스택
+## 기술 스택 🛠
 
 <p align="center"> 
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/> 
 </p> 
   <p align="center"> 
-    <img src="https://img.shields.io/badge/React Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white"/> 
+    <img src="https://img.shields.io/badge/React Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/> 
     <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white"/> 
     <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white"/> 
   </p> 
@@ -37,7 +37,7 @@
 
 ---
 
-## 📄 페이지 별 기능 및 렌더링 전략
+## 페이지 별 기능 및 렌더링 전략 📄
 
 각 페이지는 **SEO, 데이터 갱신 빈도, 사용자 맞춤 데이터 여부**를 고려하여 적절한 렌더링 방식을 적용했습니다.
 
@@ -51,7 +51,7 @@
 
 ---
 
-## 💡 주요 기능
+## 주요 기능 💡
 
 ### 🔒 인증 기능
 - 일반 회원가입 / 로그인 (Form 기반)
@@ -59,15 +59,16 @@
 - httpOnly 쿠키 기반 인증
 - Input 재사용을 위한 HOC 패턴 적용
 
-### 📅 일정 기능
+### 📅 모임, 일정 기능
 - 카테고리, 날짜, 지역 필터 제공
+- 정렬 및 필터 기능
 - 무한 스크롤 (IntersectionObserver + React Query)
 - SSR + CSR 조합으로 렌더링 최적화
 
-### 👥 모임 기능
-- 정렬 및 필터 기능
-- 무한 스크롤 적용
+### 👥 모임, 일정 상세 기능
 - 상세 페이지 SSR 처리로 SEO 및 속도 향상
+- 참여자 수, 모집 마감 여부, 일정 장소 등 상세 정보 제공
+- 참여 신청 / 취소, 후기 작성 기
 
 ### 🧾 리뷰 기능
 - 전체 리뷰 페이지는 ISR 방식으로 빌드
@@ -79,7 +80,7 @@
 
 ---
 
-## 🗓 프로젝트 일정
+## 프로젝트 일정 🗓
 
 | 기간         | 작업 내용                         |
 |--------------|----------------------------------|
@@ -90,7 +91,7 @@
 
 ---
 
-## 🤝 협업 툴 및 방식
+## 협업 툴 및 방식 🤝
 
 - 문서화: **Notion**
 - 실시간 소통: **Discord**
@@ -99,7 +100,7 @@
 
 ---
 
-## ⚙️ 기술적 고민 및 선택 이유
+## 기술적 고민 및 선택 이유 ⚙️
 
 - **SSR + CSR 조합**: SEO가 필요한 페이지는 SSR, 사용자 개인화 정보는 CSR, 리뷰처럼 정적 데이터는 ISR 적용
 - **쿠키 인증 처리**: getServerSideProps 내 `context.req.headers.cookie`로 인증 처리
@@ -108,7 +109,7 @@
 
 ---
 
-## 🧯 트러블슈팅
+## 트러블슈팅 🧯
 
 - SSR 환경에서 인증 쿠키 미포함 → 서버사이드에서 쿠키 헤더 수동 전달로 해결
 - 무한 스크롤 중 중복 요청 발생 → 옵저버 타겟 조건 및 debounce 적용으로 해결
