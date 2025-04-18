@@ -59,12 +59,32 @@
 - GNB, 마이페이지 등 주요 뷰는 모바일 전용 인터페이스 별도 설계
 - 동일한 UX 유지 위한 크기·정렬·간격 자동 반영
 - 일정/모임 카드, 버튼 등은 재사용 가능한 컴포넌트로 제작
+<table>
+  <tr>
+    <td align="center" width="10%">
+      <img src="https://github.com/user-attachments/assets/5ca7ae92-43e6-4fb2-a1de-32c455caa3c2" width="60%"/>
+      <br/>
+      <sub>📱 모바일 화면</sub>
+    </td>
+    <td align="center" width="30%">
+      <img src="https://github.com/user-attachments/assets/cc4bdfd6-8c15-4996-9862-33d30f3597c4" width="60%"/>
+      <br/>
+      <sub>💻 PC 화면</sub>
+    </td>
+  </tr>
+</table>
+
 
 ### 🔒 인증 기능
 - 일반 회원가입 / 로그인 (Form 기반)
 - OAuth 로그인 (카카오, 네이버, 구글)
 - httpOnly 쿠키 기반 인증
 - Input 재사용을 위한 HOC 패턴 적용
+<div style="text-align: left;">
+  <img src="https://github.com/user-attachments/assets/df5e4178-4337-4322-8a1a-3d27d551d25b" width="40%" alt="로그인 화면"/>
+  <img src="https://github.com/user-attachments/assets/1c7dd86e-ec3a-418b-bbd8-70c4dc44e12c" width="40%" alt="회원가입 화면"/>
+</div>
+
 
 ### 📅 모임, 일정 기능
 - 카테고리, 날짜, 지역 필터 제공
