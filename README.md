@@ -81,8 +81,8 @@
 - httpOnly 쿠키 기반 인증
 - Input 재사용을 위한 HOC 패턴 적용
 <div style="text-align: left;">
-  <img src="https://github.com/user-attachments/assets/df5e4178-4337-4322-8a1a-3d27d551d25b" width="40%" alt="로그인 화면"/>
-  <img src="https://github.com/user-attachments/assets/1c7dd86e-ec3a-418b-bbd8-70c4dc44e12c" width="40%" alt="회원가입 화면"/>
+  <img src="https://github.com/user-attachments/assets/df5e4178-4337-4322-8a1a-3d27d551d25b" width="45%" alt="로그인 화면"/>
+  <img src="https://github.com/user-attachments/assets/1c7dd86e-ec3a-418b-bbd8-70c4dc44e12c" width="45%" alt="회원가입 화면"/>
 </div>
 
 
@@ -91,21 +91,34 @@
 - 정렬 및 필터 기능
 - 무한 스크롤 (IntersectionObserver + React Query)
 - SSR + CSR 조합으로 렌더링 최적화
+<div style="text-align: left;">
+  <img src="https://github.com/user-attachments/assets/b60fb18f-ab61-4bff-85be-8f751973e203" width="45%" alt="메인-일정 페이지"/>
+  <img src="https://github.com/user-attachments/assets/256d23c3-b26d-4737-a515-d6647d1bcac0" width="45%" alt="모임 검색 페이지"/>
+</div>
 
 ### 👥 모임, 일정 상세 기능
 - 상세 페이지 SSR 처리로 SEO 및 속도 향상
 - 참여자 수, 모집 마감 여부, 일정 장소 등 상세 정보 제공
-- 참여 신청 / 취소, 후기 작성 기
+- 참여 신청 / 취소, 후기 작성 기능
+<div style="text-align: left;">
+  <img src="https://github.com/user-attachments/assets/aea6c410-8b4d-4b40-8f5c-1e1cede9cef8" width="45%" alt="메인-일정 페이지"/>
+  <img src="https://github.com/user-attachments/assets/c4cc1c42-fa3a-4123-8a50-8209a4dab00b" width="45%" alt="모임 검색 페이지"/>
+</div>
 
-### 🧾 리뷰 기능
+### 🧾 리뷰 기능 (번개팟 추후 수정)
 - 전체 리뷰 페이지는 ISR 방식으로 빌드
 - 최신 리뷰는 CSR로 추가 불러오기
+<div style="text-align: left;">
+  <img src="https://github.com/user-attachments/assets/9a2c06d3-e944-4ab9-b216-dfcfbdaf4a6e" width="45%" alt="메인-일정 페이지"/>
+  <img src="https://github.com/user-attachments/assets/34e346fa-3671-4ff6-90c1-7fdfe3e4af17" width="45%" alt="모임 검색 페이지"/>
+</div>
 
 ### 🧍‍♀️ 마이페이지
 - 참여 일정, 모임, 찜 목록 확인 가능
 - CSR 기반으로 유저 인증 후 데이터 로딩
-
----
+<div style="text-align: left;">
+  <img src="https://github.com/user-attachments/assets/a09eb80d-f736-4fc1-8b01-7d85d2a0d535" width="90%" alt="메인-일정 페이지"/>
+</div>
 
 ## 프로젝트 일정 🗓
 
